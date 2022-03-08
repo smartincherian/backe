@@ -164,6 +164,7 @@ app.get('/api/search', (req, res) => {
 });
 
 // Schedule List
+
 app.get('/api/schedule', (req, res) => {
     ScheduleInfo.find()
     .then(function(users){
